@@ -3,14 +3,16 @@ on:
   push:
     paths: "*.py"
 
- jobs: 
+jobs: 
    code: 
-     runs-on: ubuntu:latest
+     runs-on: ubuntu-latest
      steps: 
        - name: checkout the code
-         uses: actions/checkout@v7
+         uses: actions/checkout@v4
        - name: install linter
          run: pip install ruff
+       - name: run linter
+         run: ruff check .
         
        
 
