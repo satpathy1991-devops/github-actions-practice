@@ -1,8 +1,9 @@
-# workflow
-# should have name
+
 name: achyuthello
-# jobs
-# inside workflow
+
+on:
+  workflow_dispatch:
+
 
 jobs:
   say-hello:
@@ -10,7 +11,4 @@ jobs:
     steps:
       - name: say hello to everyone
         run: echo "Hello Achyut"
-# steps
-# inside jobs
-# Actions
-# inside steps
+
