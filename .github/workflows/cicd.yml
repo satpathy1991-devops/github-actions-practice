@@ -11,8 +11,8 @@ on:
     build:
       runs-on:ubuntu-latest
         steps:
-        -name: build using docker
-         run: echo"building using docker"
+         -name: build using docker
+          run: echo"building using docker"
         
     test:
       runs-on: ubuntu-latest
