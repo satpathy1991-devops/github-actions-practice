@@ -7,6 +7,6 @@ def hello_world():
     return render_template('index.html')
 
 
-@app.route('/heart')
+@app.route('/health1')
 def health():
     return 'Server is up and running'
