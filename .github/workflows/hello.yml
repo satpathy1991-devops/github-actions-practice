@@ -1,0 +1,16 @@
+# workflow
+# should have name
+name: achyuthello
+# jobs
+# inside workflow
+
+jobs:
+  say-hello:
+    runs on: ubuntu-latest
+    steps:
+      - name: say hello to everyone
+        run: echo "Hello Achyut"
+# steps
+# inside jobs
+# Actions
+# inside steps
