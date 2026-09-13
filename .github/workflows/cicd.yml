@@ -11,13 +11,13 @@ jobs:
     build:
       runs-on: ubuntu-latest
       steps:
-         -name: build using docker
+        - name: build using docker
           run: echo"building using docker"
         
     test:
       runs-on: ubuntu-latest
       steps: 
-          -name: Running test cases
+        - name: Running test cases
            run: echo"testing app"
     
     deploy:
