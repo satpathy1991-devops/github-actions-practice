@@ -9,8 +9,8 @@ on:
          - name: clone the code
            run: echo"cloning the code"
     build:
-      run-on:ubuntu-latest
-      steps:
+      runs-on:ubuntu-latest
+        steps:
         -name: build using docker
          run: echo"building using docker"
         
